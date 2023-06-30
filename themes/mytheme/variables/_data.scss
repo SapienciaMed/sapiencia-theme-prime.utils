@@ -56,7 +56,7 @@ $paginatorElementBorderRadius: $borderRadius;
 
 /// Margin of a paginator element
 /// @group data
-$paginatorElementMargin: 0.143rem;
+$paginatorElementMargin: 0px;
 
 /// Padding of a paginator element
 /// @group data
@@ -96,11 +96,11 @@ $tableHeaderCellBg: #ffffff;
 
 /// Text color of a table header cell
 /// @group data
-$tableHeaderCellTextColor: $primaryColor;
+$tableHeaderCellTextColor: $color-black;
 
 /// Font weight of a table header cell
 /// @group data
-$tableHeaderCellFontWeight: 600;
+$tableHeaderCellFontWeight: bold;
 
 /// Border of a table header cell
 /// @group data
@@ -108,7 +108,7 @@ $tableHeaderCellBorder: 1px solid #e9ecef;
 
 /// Border width of a table header cell
 /// @group data
-$tableHeaderCellBorderWidth: 0 0 1px 0;
+$tableHeaderCellBorderWidth: 0 0 0 0;
 
 /// Background of a table header cell in hover state
 /// @group data
@@ -239,7 +239,7 @@ $tableFooterPadding: 1rem 1rem;
 
 /// Content alignment of a table cell
 /// @group data
-$tableCellContentAlignment: left;
+$tableCellContentAlignment: center;
 
 /// Border width of a table paginator positioned at top
 /// @group data
